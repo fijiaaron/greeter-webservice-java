@@ -2,20 +2,16 @@ package oneshore.greeter;
 
 
 public class GreetingService {
-	
-	
-	
-	
+		
 	public GreetingService() {}
-	
-	
-	public Greeting greet() {
-		return greet(null);
-	}
-	
-	public Greeting greet(String name) {
-		return greet(name, null);
-	}
+		
+//	public Greeting greet() {
+//		return greet(null);
+//	}
+//	
+//	public Greeting greet(String name) {
+//		return greet(name, null);
+//	}
 	
 	public Greeting greet(String name, String locale) {
 		Person person = null;
